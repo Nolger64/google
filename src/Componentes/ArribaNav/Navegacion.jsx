@@ -1,5 +1,4 @@
 import * as React from 'react';
-import Button from '@mui/material/Button';
 import style from './Navegacion.module.css';
 import imgMenu from './menu.png'
 
