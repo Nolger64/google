@@ -1,0 +1,21 @@
+*{
+    margin: 5px;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+}
+.barraArriba{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 10%;
+}
+.svgCuadros{
+    width: 20px;
+    height: 20px;
+    padding: 0 10px;
+}
+.direccionURL:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    margin: 0 5px;
+}
