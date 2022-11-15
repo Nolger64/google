@@ -1,8 +1,6 @@
 .ImagenGoogle{
     display: flex;
     justify-content: center;
-    height: 30%;
+    height: auto;
     margin: 10px 0;
-}
-.Img{
 }
