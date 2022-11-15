@@ -12,8 +12,8 @@
 }
 .BarraBusqueda:hover{
     -webkit-box-shadow: 1px 1px 4px -1px rgba(0,0,0,0.75);
--moz-box-shadow: 1px 1px 4px -1px rgba(0,0,0,0.75);
-box-shadow: 1px 1px 4px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 1px 4px -1px rgba(0,0,0,0.75);
+    box-shadow: 1px 1px 4px -1px rgba(0,0,0,0.75);
 }
 .imgLupa{
     margin: 10px;
@@ -42,12 +42,20 @@ box-shadow: 1px 1px 4px -1px rgba(0,0,0,0.75);
     height: 30px;
     margin: 0 10px;
 }
+.microfono{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.MicrofonoIMG{
+    width: 30px;
+    height: 30px;
+}
 .BotonesDeBuscar{
     margin: 30px auto;
     width: 50%;
     display: flex;
     justify-content: center;
-    
 }
 .botonBuscar{
     font-family: arial,sans-serif;
@@ -78,3 +86,27 @@ box-shadow: 1px 1px 4px -1px rgba(0,0,0,0.75);
 .OfrecidoLeyenda{
     text-align: center;
 }
+
+@media (max-width: 600px) {
+    .BarraBusqueda{
+        width: 90%;
+        max-width: 584px;
+        height: 35px;
+    }
+    .imgLupa{
+        margin: 5px;
+    }
+    .CamaraImagen{
+        display: none;
+    }
+    .MicrofonoIMG{
+        display: none;
+    }
+    .botonBuscar{
+        display: none;
+    }
+    .linkOfrecido{
+        
+    }
+}
+  

@@ -4,3 +4,11 @@
     height: auto;
     margin: 10px 0;
 }
+@media (max-width: 600px) {
+    .Img{
+        width: 60%;
+    }
+    .ImagenGoogle{
+        margin: 40px;
+    }
+}

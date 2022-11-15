@@ -1,17 +1,22 @@
 *{
     font-family: arial,sans-serif;
     font-size: 14px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 .barraArriba{
+    margin-top: 10px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
     height: auto;
+    width: 98%;
 }
 .svgCuadros{
     width: 20px;
     height: 20px;
-    padding: 0 10px;
+    margin: auto 20px;
 }
 .direccionURL{
     margin: 5px;
@@ -21,4 +26,104 @@
     text-decoration: underline;
     cursor: pointer;
     margin: 0 5px;
+}
+.barraArribaResposivo{
+    display: none;
+}
+.barraArribaEscritorio{
+    display: flex;
+    align-items: center;
+}
+.botonAcceder{
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    box-sizing: border-box;
+    outline: 0;
+    border: 0;
+    margin: 0;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.75;
+    letter-spacing: 0.02857em;
+    min-width: 64px;
+    padding: 6px 16px;
+    border-radius: 4px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    color: #fff;
+    background-color: #1976d2;
+    box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2),0px 2px 2px 0px rgba(0,0,0,0.14),0px 1px 5px 0px rgba(0,0,0,0.12);
+}
+.botonAccederResposivo{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    box-sizing: border-box;
+    outline: 0;
+    border: 0;
+    margin: 0;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.75;
+    letter-spacing: 0.02857em;
+    min-width: 64px;
+    padding: 6px 16px;
+    border-radius: 4px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    color: #fff;
+    background-color: #1976d2;
+    box-shadow: 0px 3px 1px -2px rgba(0,0,0,0.2),0px 2px 2px 0px rgba(0,0,0,0.14),0px 1px 5px 0px rgba(0,0,0,0.12);
+}
+@media (max-width: 600px) {
+    /*Botones Al entrar al resposivo*/
+    .botonAcceder{
+        display: none;
+    }
+    .botonAccederResposivo{
+        display: block;
+    }
+    /* ----- */
+    .direccionURL{
+        display: none;
+    }
+    .barraArriba{
+        justify-content: space-between;
+        height: 10vh;
+        margin: 0;
+    }
+    .barraArribaResposivo{
+        display: flex;
+        align-items: center;
+    }
+    .svgCuadros{
+        fill: #A5A4AE;
+    }
+    .imgMenu{
+        width: 12px;
+        height: 12px;
+        margin: 10px;
+    }
+    .direccionURLResponsivo{
+        font-size: small;
+        margin: 0.5em;
+        font-size: 12px;
+    }
+    .direccionURLResponsivo1{
+        font-size: small;
+        margin: 0.5em;
+        font-size: 12px;
+        color: #1976d2;
+        border-bottom: 2px solid;
+        height: 7vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }

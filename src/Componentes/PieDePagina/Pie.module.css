@@ -3,9 +3,8 @@ html{
     position: relative;
 }
 .Pie{
-    background-color: black;
     position: absolute;
-    bottom: 0;
+    bottom: 10px;
     width: 100%;
     height: 70px;
     color: #70757a;
@@ -25,4 +24,5 @@ html{
 .contenedorPie{
     display: flex;
     flex-direction: column;
+    margin-top: 0;
 }
