@@ -1,5 +1,4 @@
 *{
-    margin: 5px;
     font-family: arial,sans-serif;
     font-size: 14px;
 }
@@ -7,14 +6,18 @@
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    height: 10%;
+    height: auto;
 }
 .svgCuadros{
     width: 20px;
     height: 20px;
     padding: 0 10px;
 }
+.direccionURL{
+    margin: 5px;
+}
 .direccionURL:hover{
+    margin: 5px;
     text-decoration: underline;
     cursor: pointer;
     margin: 0 5px;
